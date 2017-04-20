@@ -12,4 +12,7 @@
 <script src="js/contactform.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/main.js"></script>
+<!-- Float button -->
+<script src="css/Material-Floating/collapzion.min.js"></script>
+
 @stack('scripts')

@@ -26,6 +26,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         @include('layouts.partials.blog')
         @include('layouts.partials.contact')
     <!-- Contains page content -->
+      <div id="btncollapzion" class=" btn_collapzion"></div>
       @include('layouts.partials.footer')
   </div>
   @section('scripts')
