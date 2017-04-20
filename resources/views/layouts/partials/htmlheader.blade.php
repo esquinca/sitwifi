@@ -24,6 +24,6 @@
   <link href="css/owl.transitions.css" rel="stylesheet">
   <!-- Floating Button css -->
   <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="css/Material-Floating/collapzion.min.css">
+  <link href="css/Material-Floating/collapzion.min.css" rel="stylesheet" type="text/css">
 
 </head>

@@ -6,8 +6,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="carousel-content text-center">
-                                <h2>Accessible design is good design. Only with <span>Color</span>.</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et  dolore magna incididunt ut labore aliqua. </p>
+                                <h2><span>¿Quiénes Somos?</span></h2>
+                                <p>Somos una empresa especializada en brindar soluciones de conectividad inalámbrica WiFi en ambientes de alta densidad de usuarios: universidades, hospitales, hoteles, aeropuertos entre otros en donde SitWifi se encarga de la operación, mantenimiento y administración de la infraestructura garantizando la disponibilidad de la misma por contrato.</p>
                                 <a class="btn btn-primary btn-lg" href="#">Read More</a>
                             </div>
                         </div>

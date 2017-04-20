@@ -1,4 +1,27 @@
-	
+jQuery(function($){
+	$('#btncollapzion').Collapzion({
+					_child_attribute:[
+							{
+								'label':'New Item',
+								'url':'#',
+								'icon':'&#xE150;'
+							},
+							{
+							'label':'Edit Item',
+							'url':'#',
+							'icon':'&#xE873;'
+							},
+							{
+							'label':'My Profile',
+							'url':'#',
+							'icon':'&#xE7FD;'
+							},
+					],
+					_main_btn_color:'#4285f4;',
+					_child_btn_color:'#f4645f;',
+
+			});
+});
 	//Slider
 	$(document).ready(function() {
 		var time = 7; // time in seconds
@@ -9,48 +32,6 @@
 	      isPause,
 	      tick,
 	      percentTime;
-
-	    //Float button
-		$('#btncollapzion').Collapzion({
-			_child_attribute:[
-				{
-					'label':'<a href="http://www.jqueryscript.net/menu/">Menu</a> 1',
-					'url':'#',
-					'icon':'&#xE150;'
-				},
-				{
-					'label':'Menu 2',
-					'url':'#',
-					'icon':'&#xE873;'
-				},
-				{
-					'label':'Menu 3',
-					'url':'#',
-					'icon':'&#xE7FD;'
-				},
-			]
-		});
-
-		$('#btncollapzion').Collapzion({
-		  _main_btn_color:'#4285f4;',
-		  _child_btn_color:'#f4645f;',
-		});
-
-		$('#btncollapzion').Collapzion({
-		  _pos: {
-		    'width':'100%',
-		    'min-height':'20%',
-		    'position':'fixed',
-		    'right':'0',
-		    'left': '-20px',
-		    'bottom': '-25px',
-		    'text-align':'center',
-		    'padding': '0px 8px',
-		    'display':'block',
-		    'margin-bottom':'34px'
-		  },
-		});
-
 
 	    //Init the carousel
 	    $("#main-slider").find('.owl-carousel').owlCarousel({
