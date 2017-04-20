@@ -11,13 +11,16 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#main-header">Home</a></li>
-          <li class=""><a href="#feature">About</a></li>
-          <li class=""><a href="#service">Services</a></li>
-          <li class=""><a href="#portfolio">Portfolio</a></li>
-          <li class=""><a href="#testimonial">Testimonial</a></li>
-          <li class=""><a href="#blog">Blog</a></li>
-          <li class=""><a href="#contact">Contact Us</a></li>
+          <li class="active"><a href="#main-header">{{ trans('text.company')}}</a></li>
+          <li class=""><a href="#feature">{{ trans('text.service')}}</a></li>
+          <li class=""><a href="#contact">{{ trans('text.wifimedia')}}</a></li>
+          <li class=""><a href="#service">{{ trans('text.products')}}</a></li>
+          <li class=""><a href="#service">{{ trans('text.solutions')}}</a></li>
+
+          <li class=""><a href="#portfolio">{{ trans('text.customers')}}</a></li>
+          <li class=""><a href="#testimonial">{{ trans('text.infrastructure')}}</a></li>
+          <li class=""><a href="#blog">{{ trans('text.freewifi')}}</a></li>
+          <li class=""><a href="#contact">{{ trans('text.contact')}}</a></li>
         </ul>
       </div>
     </div>

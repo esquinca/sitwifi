@@ -2,23 +2,23 @@ jQuery(function($){
 	$('#btncollapzion').Collapzion({
 					_child_attribute:[
 							{
-								'label':'New Item',
-								'url':'#',
-								'icon':'&#xE150;'
+								'label':'Contáctanos',
+								'url':'#contact',
+								'icon':'&#xE0B0;'
 							},
 							{
-							'label':'Edit Item',
+							'label':'Español',
 							'url':'#',
-							'icon':'&#xE873;'
+							'icon':'&#xE80B;'
 							},
 							{
-							'label':'My Profile',
+							'label':'English',
 							'url':'#',
-							'icon':'&#xE7FD;'
+							'icon':'&#xE80B;'
 							},
 					],
-					_main_btn_color:'#4285f4;',
-					_child_btn_color:'#f4645f;',
+					_main_btn_color:'#09347A;',
+					_child_btn_color:'#F15D22;',
 
 			});
 });
