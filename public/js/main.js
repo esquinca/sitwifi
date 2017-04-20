@@ -19,9 +19,10 @@ jQuery(function($){
 					],
 					_main_btn_color:'#09347A;',
 					_child_btn_color:'#F15D22;',
+		});
+	});
 
-			});
-});
+
 	//Slider
 	$(document).ready(function() {
 		var time = 7; // time in seconds
