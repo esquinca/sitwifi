@@ -15,7 +15,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <div class="header">
       <div class="bg-color">
         @include('layouts.partials.mainheader')
-        @include('layouts.partials.banner')
+        @include('layouts.partials.bannertwo')
       </div>
     </div>
     <!--  Contains page content -->

@@ -19,5 +19,8 @@
   <!-- Theme style -->
   <link href="{{ asset('/css/animate.css') }}" rel="stylesheet" type="text/css" />
   <link href="{{ asset('/css/style.css') }}" rel="stylesheet" type="text/css" />
+  <!-- Style Banner -->
+  <link href="css/owl.carousel.css" rel="stylesheet">
+  <link href="css/owl.transitions.css" rel="stylesheet">
 
 </head>
