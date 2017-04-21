@@ -37,11 +37,15 @@ return [
   'title_five' => 'Soluciones',
   'content_five' => 'SitWifi le entrega un servicio, no una caja, por lo que usted dejará de preocuparse por problemas de cobertura, problemas de conexión, problemas en tiempos de respuesta, problemas de seguridad, problemas de obsolescencia, etc., ya que nuestras soluciones incluyen desde la infraestructura requerida para conectar las antenas (cableado estructurado), hasta la infraestructura WiFI, pasando por equipo de ruteo (Switching) , seguridad ( Firewall, filtrado de contenidos, etc.), autentificación, tarificación, administración del ancho de banda, Mobile Device Management (MDM), etc.',
 
-  'title_six' => 'Clientes',
+  'title_six' => 'Nuestros Clientes',
   'content_six' => 'Nuestra experiencia en el mercado nos permite proporcionar servicios de infraestructura de Wifi a gran variedad de verticales ya que entendemos plenamente las necesidades de cada una de ellas: Wifi para Educación, Wifi para hotelería, Wifi para Retail, Wifi Empresarial, WiFi para eventos, etc. nuestros numerosos clientes nos respaldan.',
 
   'title_seven' => 'Infraestructura',
   'content_seven' => 'Actualmente contamos y monitoreamos más de 1100 puntos de acceso en varias ciudades de la República. Estos puntos se encuentran instalados en más de 20 campus de las universidades privadas más importantes del país, con lo cual proporcionamos servicio a una matrícula de más de 100,000 estudiantes. Asimismo, SitWifi brinda atención a 48 hoteles 5 estrellas y Gran Turismo en Cancún, Riviera Maya, Jamaica, Los Cabos y Punta Cana cubriendo más de 25,000 habitaciones. De igual manera, los hospitales privados de mayor reputación de la Ciudad de México cuentan con nuestro servicio.',
 
-
+  'title_info_one' => '9 Años de experiencia',
+  'cont_title_info_one' => '9 Años',
+  'title_info_two' => '58 Hoteles en el caribe',
+  'title_info_three' => '5 Millones de Turistas anuales.',
+  'title_info_four' => 'Conexiones Mensuales',
 ];

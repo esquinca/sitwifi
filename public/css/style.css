@@ -158,13 +158,92 @@ h1, h2, h3, h4, h5, h6{
   width: 100%;
   background: rgba(0, 0, 0, 0.1);
 }
+
+.bg-navy {
+  color: #fff;
+  background-color: #00366b;
+  border-color: #00366b;
+}
+.bg-navy:focus,
+.bg-navy.focus {
+  color: #fff;
+  background-color: #001f3f;
+  border-color: #255625;
+}
+.bg-navy:hover {
+  color: #fff;
+  background-color: #001a35;
+  border-color: #001f3f;
+}
+.bg-navy:active,
+.bg-navy.active,
+.open > .dropdown-toggle.bg-navy {
+  color: #fff;
+  background-color: #001a35;
+  border-color: #001f3f;
+}
+.bg-navy:active:hover,
+.bg-navy.active:hover,
+.open > .dropdown-toggle.bg-navy:hover,
+.bg-navy:active:focus,
+.bg-navy.active:focus,
+.open > .dropdown-toggle.bg-navy:focus,
+.bg-navy:active.focus,
+.bg-navy.active.focus,
+.open > .dropdown-toggle.bg-navy.focus {
+  color: #fff;
+  background-color: #001a35;
+  border-color: #001f3f;
+}
+.bg-navy:active,
+.bg-navy.active,
+.open > .dropdown-toggle.bg-navy {
+  background-image: none;
+}
+.bg-navy.disabled:hover,
+.bg-navy[disabled]:hover,
+fieldset[disabled] .bg-navy:hover,
+.bg-navy.disabled:focus,
+.bg-navy[disabled]:focus,
+fieldset[disabled] .bg-navy:focus,
+.bg-navy.disabled.focus,
+.bg-navy[disabled].focus,
+fieldset[disabled] .bg-navy.focus {
+  background-color: #5cb85c;
+  border-color: #001f3f;
+}
+.bg-navy .badge {
+  color: #5cb85c;
+  background-color: #fff;
+}
+/***********************************
+Efectos de icons
+***********************************/
+.nav-bar2{
+	padding: 15px 0px;
+	margin-top: 2px;
+	position: fixed;
+}
+.par-just{
+	text-align: center;
+	line-height: 2;
+}
+.item-img .fa-style4 {
+		margin-bottom: 20px;
+		font-size:4em;
+		-webkit-transition:all 0.3s ease-out; transition:all 0.3s ease-out;
+}
+.item-img:hover .fa-style4 {
+		color:rgb(241,93,34);
+		-webkit-transition:all 0.3s ease-out; transition:all 0.3s ease-out;
+}
 /***********************************
 ************************************
 HEADER
 ************************************
 ***********************************/
 .header{
-		background: url('../slider/orange2.jpg') no-repeat fixed;
+		/*background: url('../slider/orange2.jpg') no-repeat fixed;*/
 		/*background: url('../img/bg-banner02.jpg') no-repeat fixed;*/
     background-size: cover;
     min-height: 650px;
@@ -172,8 +251,8 @@ HEADER
 }
 .bg-color
 {
-    /*background-color: rgba(0, 0, 0, 0.5);*/
-		background-color: rgba(254, 126, 67, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
+		/*background-color: rgba(254, 126, 67, 0.3);*/
     min-height: 650px;
 }
 #main-header

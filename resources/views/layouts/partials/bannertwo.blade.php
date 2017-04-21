@@ -59,7 +59,7 @@
                                       <img class="img-responsive" src="../img/clientes/client20.png" alt="H10">
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                      <a id="" class="btn btn-success  btn-lg"><i class="fa fa-bookmark-o"></i> {{ trans('text.title_b')}}</a>
+                                      <a id="" class="btn bg-navy btn-lg"><i class="fa fa-bookmark-o"></i> {{ trans('text.title_b')}}</a>
                                     </div>
                                   </div>
                                 </div>
