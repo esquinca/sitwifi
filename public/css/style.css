@@ -110,7 +110,8 @@ h1, h2, h3, h4, h5, h6{
   color: #fff;
 }
 #main-slider .slider-inner h2 > span {
-  color: #72C05B;
+  /*color: #72C05B;*/
+	color: #296BA3;
 }
 #main-slider .slider-inner .btn {
   margin-top: 10px;
@@ -163,14 +164,16 @@ HEADER
 ************************************
 ***********************************/
 .header{
-    background: url('../img/bg-banner02.jpg') no-repeat fixed;
+		background: url('../slider/orange2.jpg') no-repeat fixed;
+		/*background: url('../img/bg-banner02.jpg') no-repeat fixed;*/
     background-size: cover;
     min-height: 650px;
     position: relative;
 }
 .bg-color
 {
-    background-color: rgba(0, 0, 0, 0.5);
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+		background-color: rgba(254, 126, 67, 0.3);
     min-height: 650px;
 }
 #main-header
