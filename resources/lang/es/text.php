@@ -20,6 +20,8 @@ return [
   'contact' => 'Contacto',
   'solutions' => 'Soluciones',
   //Title Banner
+  'title_a' => '¿Que hacemos?',
+  'title_b' => 'Leer más',
   'title_one' => '¿Quiénes Somos?',
   'content_one' => 'Somos una empresa especializada en brindar soluciones de conectividad inalámbrica WiFi en ambientes de alta densidad de usuarios: universidades, hospitales, hoteles, aeropuertos entre otros en donde SitWifi se encarga de la operación, mantenimiento y administración de la infraestructura garantizando la disponibilidad de la misma por contrato.',
 
