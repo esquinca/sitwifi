@@ -50,6 +50,7 @@ Manejamos equipo: Ruckus, Cisco, Dell, HP, Panduit, etc.',
 
    //Contactanos
    'title_contacto' => 'Mantente en contacto con nosotros',
+   'content_contacto' => 'Para más información de nuestros servicios, póngase en contacto con nosotros por medio de las siguientes opciones.',
 
    //Otros textos
   'title_three' => 'Wifimedia',

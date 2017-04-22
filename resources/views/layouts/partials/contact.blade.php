@@ -4,7 +4,7 @@
 
       <div class="col-md-12 text-center white">
         <h2 class="service-title pad-bt15">{{ trans('text.title_contacto')}}</h2>
-        <p class="sub-title pad-bt15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="sub-title pad-bt15">{{ trans('text.content_contacto')}}</p>
         <hr class="bottom-line white-bg">
       </div>
 
