@@ -41,7 +41,7 @@
                 </div>
                 <div class="col-md-6 padding-right-zero">
                     <div class="form-group">
-                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                        <input type="number" class="form-control" name="subject" id="telefono" placeholder="telefono" data-rule="minlen:10" data-msg="Please enter at least 10 chars" />
                         <div class="validation"></div>
                     </div>
                 </div>
@@ -50,10 +50,10 @@
                   <div class="form-group">
                     <select  name="producto" id="producto" class="form-control" data-rule="required:true" data-msg="Please choose a element">
                       <option value="">Selecciona un producto</option>
-                      <option value="1">Wifi Administrado</option>
-                      <option value="1">Venta  de infraestructura WiFi</option>
-                      <option value="1">Publicidad con WifiMedia</option>
-                      <option value="1">Otros</option>
+                      <option value="Wifi Administrado">Wifi Administrado</option>
+                      <option value="Venta  de infraestructura WiFi">Venta  de infraestructura WiFi</option>
+                      <option value="Publicidad con WifiMedia<">Publicidad con WifiMedia</option>
+                      <option value="Otros">Otros</option>
                     </select>
                     <div class="validation"></div>
                   </div>
