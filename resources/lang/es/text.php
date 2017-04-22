@@ -10,7 +10,7 @@ return [
 
   //Titles Navbar
   'home' => 'Inicio',
-  'company' => 'Empresa',
+  'company' => 'Conócenos',
   'service' => 'Servicios',
   'products' => 'Productos',
   'customers' => 'Clientes',
@@ -74,4 +74,20 @@ Manejamos equipo: Ruckus, Cisco, Dell, HP, Panduit, etc.',
   //Que hacemos
   'title_do_one' => '¿Qué realizamos?',
 
+  //Solutions
+
+  'title_solutions' => 'Soluciones',
+  'content_solutions' => 'Brindamos soluciones en sectores como la Hoteleria, Hospitales, Universidades, Aeropuertos, Empresas, Centros Comerciales y Pago por Evento.',
+  'subtitle_hoteleria' => 'WiFi para Hoteleria.',
+  'cont_subtitle_hoteleria' => 'SitWifi conoce perfectamente el mercado hotelero y entiende que el tema de contar con WiFi de calidad al mejor precio está basado en la relación cobertura / densidad.',
+  'subtitle_hospitalidad' => 'WiFi para Hospitales',
+  'cont_subtitle_hospitalidad' => 'Dar servicio WiFi a los pacientes, visitantes y médicos es una necesidad hoy en día, pero lo mas importante es disponer de una red de alto desempeño que permita conectar dispositivos de operación critica. Nosotros ofrecemos la experiencia y la tecnología para lograrlo.',
+  'subtitle_educacion' => 'WiFi para Educación',
+  'cont_subtitle_educacion' => 'La cobertura y densidad no son los únicos aspectos importantes en el ámbito educativo, por ello entendemos que las soluciones van también en el sentido de  la seguridad, autentificación y movilidad.',
+  'subtitle_empresa' => 'WiFi Empresarial',
+  'cont_subtitle_empresa' => 'Nuestras soluciones empresariales permiten a nuestros clientes liberarse de las ataduras de los cables, dando mayor flexibilidad y productividad a su organización.',
+  'subtitle_comercial' => 'WiFi en Centros Comerciales',
+  'cont_subtitle_comercial' => 'Esta solución está desarrollada para  que los centros comerciales se catapulten al siguiente nivel ofreciendo  a sus visitantes experiencias de comunicación únicas.',
+  'subtitle_evento' => 'WiFi en Eventos',
+  'cont_subtitle_evento' => 'El tiempo de implementación, la densidad, el ancho de banda por asistente son críticos para poder dar un servicio. Nosotros lo sabemos y reaccionamos en consecuencia, adecuándonos a sus horarios y a sus espacios cerrados y abiertos.',
 ];
