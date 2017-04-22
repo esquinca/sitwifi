@@ -13,11 +13,11 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="#main-header">{{ trans('text.company')}}</a></li>
-          <li class=""><a href="#feature">{{ trans('text.service')}}</a></li>
-          <li class=""><a href="#contact">{{ trans('text.wifimedia')}}</a></li>
-          <li class=""><a href="#service">{{ trans('text.products')}}</a></li>
-          <li class=""><a href="#service">{{ trans('text.solutions')}}</a></li>
+          <li class=""><a href="#feature">{{ trans('text.about')}}</a></li>
+          <li class=""><a href="#service">{{ trans('text.title_two')}}</a></li>
+          <li class=""><a href="#portfolio">{{ trans('text.title_four')}}</a></li>
 
+          <!--<li class=""><a href="#contact">{{ trans('text.wifimedia')}}</a></li>-->
           <li class=""><a href="#portfolio">{{ trans('text.customers')}}</a></li>
           <li class=""><a href="#testimonial">{{ trans('text.infrastructure')}}</a></li>
           <li class=""><a href="#blog">{{ trans('text.freewifi')}}</a></li>

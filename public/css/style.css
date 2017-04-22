@@ -224,6 +224,13 @@ Efectos de icons
 	margin-top: 2px;
 	position: fixed;
 }
+.title-serv{
+	text-align: left;
+	font-size: 20px;
+}
+.title-serv-cont{
+	text-align: justify;
+}
 .par-just{
 	text-align: center;
 	line-height: 2;
@@ -586,6 +593,78 @@ ul.service-list li i
     -moz-transform:rotateY(0);
     transform:rotateY(0)
 }
+
+/******************************/
+
+.portfolio-item-product figure
+{
+    margin:0;
+    padding:0;
+    position:relative;
+    cursor:pointer;
+}
+.portfolio-item-product figure img {
+    display:block;
+    position:relative;
+    z-index:10;
+    margin:-15px 0;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.portfolio-item-product figure img {
+	text-align: center;
+
+    -webkit-transition:all 1s;
+    -moz-transition:all 1s;
+    transition:all 1s;
+}
+.portfolio-item-product figure:hover img,figure.hover img {
+    -webkit-transform:rotateY(360deg);
+    -moz-transform:rotateY(360deg);
+    transform:rotateY(360deg)
+}
+.portfolio-item-product figure:hover figcaption,figure.hover figcaption {
+    -webkit-transform:rotateY(0);
+    -moz-transform:rotateY(0);
+    transform:rotateY(0)
+}
+
+
+/**********************************
+***********************************
+Google Maps
+***********************************
+**********************************/
+.contact-map iframe.map {
+		width:100%;
+		height:300px;
+		border:1px solid #ddd;
+		border-radius:2px;
+		margin-bottom:-8px;
+	}
+.contact-map-wrapper {
+		position: relative;
+		background-color:#f5f5f5;
+		padding:10px;
+		border-radius:5px;
+	}
+	.contact-map-wrapper.form { padding:20px; }
+
+	.page-contact .box-right { margin-left:50px; }
+	.page-contact .box-left .fa {
+		font-size: 30px;
+		margin-top:5px;
+		width:30px;
+		color:#99a;
+	}
+
+	.page-contact .box-services-d.box-services-e p {
+		font-size:16px;
+	}
+
 /***********************************
 ************************************
 TESTIMONIAL
@@ -593,12 +672,14 @@ TESTIMONIAL
 ***********************************/
 #testimonial
 {
-    background: url('../img/bg.jpg') no-repeat;
+    /*background: url('../img/bg.jpg') no-repeat;*/
+		background: url('../slider/orange2.jpg') no-repeat;
     background-size: cover;
     min-height: 390px;
 }
 .bg-testicolor{
-    background-color: RGBA(73, 84, 105, 0.61);
+	  background-color: rgba(254, 126, 67, 0.3);
+    /*background-color: RGBA(73, 84, 105, 0.61);*/
     min-height: 390px;
 }
 .white

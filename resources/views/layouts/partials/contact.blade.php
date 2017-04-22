@@ -1,17 +1,20 @@
 <section id="contact" class="section-padding wow fadeInUp delay-05s">
   <div class="container">
     <div class="row">
+
       <div class="col-md-12 text-center white">
-        <h2 class="service-title pad-bt15">Keep in touch with us</h2>
+        <h2 class="service-title pad-bt15">{{ trans('text.title_contacto')}}</h2>
         <p class="sub-title pad-bt15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.</p>
         <hr class="bottom-line white-bg">
       </div>
+
       <div class="col-md-6 col-sm-6 col-xs-12">
-        <div class="loction-info white">
-          <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>A99 Adam Street<br>Texas, TX 555072</p>
-          <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>info@baker.com</p>
-          <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+41 5787 2323</p>
-        </div>
+        <div class="contact-map-wrapper">
+  				<div class="contact-map">
+            <iframe class="map" src="https://www.google.com/maps/d/u/2/embed?mid=1TbCHkhIi0xbp92AQmrzcf5hm5DM" width="640" height="480"></iframe>
+  					<!--<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.6971250195966!2d-99.16860888464319!3d19.425488045940845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff360b580971%3A0xfc481683f0009da6!2sCalle+Hamburgo+159%2C+Ju%C3%A1rez%2C+06600+Col+Ju%C3%A1rez%2C+D.F.!5e0!3m2!1ses!2smx!4v1444662260202"  frameborder="0" style="border:0" allowfullscreen></iframe>-->
+  				</div>
+  			</div>
       </div>
       <div class="col-md-6 col-sm-6 col-xs-12">
         <div class="contact-form">
@@ -44,9 +47,9 @@
                   <button type="submit" class="btn btn-primary btn-submit">SEND NOW</button>
                 </div>
             </form>
-
         </div>
       </div>
+
     </div>
   </div>
 </section>

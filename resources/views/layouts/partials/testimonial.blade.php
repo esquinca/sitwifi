@@ -3,6 +3,7 @@
     <div class="container section-padding">
     <div class="row">
       <div class="testimonial-item">
+        <!--
         <ul class="bxslider">
           <li>
             <blockquote>
@@ -33,6 +34,7 @@
             <small>John Doe, Client</small>
           </li>
         </ul>
+      -->
       </div>
     </div>
     </div>
