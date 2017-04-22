@@ -17,6 +17,18 @@ jQuery(function($){
 							'icon':'&#xE80B;'
 							},
 					],
+					_pos: {
+			    'width':'100%',
+			    'min-height':'13%',
+			    'position':'fixed',
+			    'right':'0',
+			    'left': '-20px',
+			    'bottom': '-20px',
+			    'text-align':'center',
+			    'padding': '0px 8px',
+			    'display':'block',
+			    'margin-bottom':'4px'
+			  },
 					_main_btn_color:'#09347A;',
 					_child_btn_color:'#F15D22;',
 		});
