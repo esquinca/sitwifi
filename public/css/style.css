@@ -722,6 +722,8 @@ ul.service-list li i
 Google Maps zone free
 ***********************************
 **********************************/
+
+
   .contact-map-free iframe.map {
 		width:100%;
 		height:300px;
@@ -740,37 +742,32 @@ Google Maps zone free
 		.contact-map-wrapper-free.form { padding:20px; }
 }
 
+
 /**********************************
 ***********************************
 Google Maps contactos
 ***********************************
 **********************************/
-.contact-map iframe.map {
-		width:100%;
-		height:300px;
-		border:1px solid #ddd;
-		border-radius:2px;
-		margin-bottom:-8px;
-	}
-.contact-map-wrapper {
-		position: relative;
-		background-color:#f5f5f5;
-		padding:10px;
-		border-radius:5px;
-	}
-	.contact-map-wrapper.form { padding:20px; }
+.contact-map {
+	position: relative;
+	height: 0;
+	overflow: hidden;
+}
+.contact-map iframe {
+  position: center;
+  top:0;
+  left: 0;
+  width: 100%;
+	height:300px;
+	background-color:#f5f5f5;
+	border:1px solid #ddd;
+	border-radius:2px;
+	margin-bottom:-8px;
 
-	.page-contact .box-right { margin-left:50px; }
-	.page-contact .box-left .fa {
-		font-size: 30px;
-		margin-top:5px;
-		width:30px;
-		color:#99a;
-	}
-
-	.page-contact .box-services-d.box-services-e p {
-		font-size:16px;
-	}
+}
+.contact-form{
+	padding-top: 20px;
+}
 
 /***********************************
 ************************************
