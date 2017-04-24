@@ -90,4 +90,7 @@ Manejamos equipo: Ruckus, Cisco, Dell, HP, Panduit, etc.',
   'cont_subtitle_comercial' => 'Esta solución está desarrollada para  que los centros comerciales se catapulten al siguiente nivel ofreciendo  a sus visitantes experiencias de comunicación únicas.',
   'subtitle_evento' => 'WiFi en Eventos',
   'cont_subtitle_evento' => 'El tiempo de implementación, la densidad, el ancho de banda por asistente son críticos para poder dar un servicio. Nosotros lo sabemos y reaccionamos en consecuencia, adecuándonos a sus horarios y a sus espacios cerrados y abiertos.',
+  //Zonas Free WiFi
+  'title_zone_free_wifi' => 'Zonas Free WiFi',
+  'cont_free_wifi' => '',
 ];

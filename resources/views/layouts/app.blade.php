@@ -25,6 +25,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         @include('layouts.partials.testimonial')
         @include('layouts.partials.productos')
         @include('layouts.partials.blog')
+        @include('layouts.partials.free_wifi')
         @include('layouts.partials.contact')
     <!-- Contains page content -->
       @include('layouts.partials.footer')

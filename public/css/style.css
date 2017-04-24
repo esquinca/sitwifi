@@ -235,14 +235,95 @@ Efectos de icons
 	text-align: center;
 	line-height: 2;
 }
+.container_text_serv{
+	padding-left: 15px;
+	text-align: justify;
+}
+/*Boton de item de hoteleria*/
+.item-img .fa-style1 {
+		font-size:2em;
+		width:60px;
+		height:60px;
+		background-color:rgb(241,93,34);
+		color:#fff;
+		border-radius:50%;
+		margin-top:10px;
+		padding-top:16px;
+		padding-left: 12px;
+		-webkit-transition:all 0.3s ease-out; transition:all 0.3s ease-out;
+}
+.item-img:hover .fa-style1 {
+		background-color:#445;
+		box-shadow:0 3px 10px rgba(0,0,0,0.7);
+		-webkit-transition:all 0.2s ease-out; transition:all 0.2s ease-out;
+}
+/*Boton de item de empresarial*/
+.item-img .fa-style2 {
+		font-size:2em;
+		width:60px;
+		height:60px;
+		background-color:rgb(241,93,34);
+		color:#fff;
+		border-radius:50%;
+		margin-top:10px;
+		padding-top:14px;
+		padding-left: 16px;
+		-webkit-transition:all 0.3s ease-out; transition:all 0.3s ease-out;
+}
+.item-img:hover .fa-style2 {
+		background-color:#445;
+		box-shadow:0 3px 10px rgba(0,0,0,0.7);
+		-webkit-transition:all 0.2s ease-out; transition:all 0.2s ease-out;
+}
+/*Boton de item de university*/
+.item-img .fa-style3 {
+		font-size:2em;
+		width:60px;
+		height:60px;
+		background-color:rgb(241,93,34);
+		color:#fff;
+		border-radius:50%;
+		margin-top:10px;
+		padding-top:12px;
+		padding-left: 14px;
+		-webkit-transition:all 0.3s ease-out; transition:all 0.3s ease-out;
+}
+.item-img:hover .fa-style3 {
+		background-color:#445;
+		box-shadow:0 3px 10px rgba(0,0,0,0.7);
+		-webkit-transition:all 0.2s ease-out; transition:all 0.2s ease-out;
+}
+/*Boton de item de hospital*/
 .item-img .fa-style4 {
+		font-size:2em;
+		width:60px;
+		height:60px;
+		background-color:rgb(241,93,34);
+		color:#fff;
+		border-radius:50%;
+		margin-top:10px;
+		padding-top:12px;
+		padding-left: 18px;
+		-webkit-transition:all 0.3s ease-out; transition:all 0.3s ease-out;
+}
+.item-img:hover .fa-style4 {
+		background-color:#445;
+		box-shadow:0 3px 10px rgba(0,0,0,0.7);
+		-webkit-transition:all 0.2s ease-out; transition:all 0.2s ease-out;
+}
+
+/*Boton de item de seccion de contamos*/
+.item-img .fa-style-t1 {
 		margin-bottom: 20px;
 		font-size:4em;
 		-webkit-transition:all 0.3s ease-out; transition:all 0.3s ease-out;
 }
-.item-img:hover .fa-style4 {
+.item-img:hover .fa-style-t1 {
 		color:rgb(241,93,34);
 		-webkit-transition:all 0.3s ease-out; transition:all 0.3s ease-out;
+}
+#blog{
+	background-color: #F3F4F8;
 }
 /***********************************
 ************************************
@@ -250,7 +331,7 @@ HEADER
 ************************************
 ***********************************/
 .header{
-		/*background: url('../slider/orange2.jpg') no-repeat fixed;*/
+		background: url('../slider/orange2.jpg') no-repeat fixed;
 		/*background: url('../img/bg-banner02.jpg') no-repeat fixed;*/
     background-size: cover;
     min-height: 650px;
@@ -258,15 +339,16 @@ HEADER
 }
 .bg-color
 {
-    background-color: rgba(0, 0, 0, 0.5);
-		/*background-color: rgba(254, 126, 67, 0.3);*/
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+		background-color: rgba(254, 126, 67, 0.3);
     min-height: 650px;
 }
 #main-header
 {
 }
 .navbar-default {
-    background-color: transparent;
+    /*background-color: transparent;*/
+		background: rgba(64,75,97, 0.9); /*Dar el color a el navbar cuando se comprimir*/
     border:0px;
     padding: 20px 0;
     transition: all 0.3s;
@@ -480,12 +562,13 @@ ul.service-list li i
     -webkit-transition: all 0.3s;
 }
 .bx-wrapper img {
-    width: 70px;
+    width: 100px;
     display: inline-block;
     border-radius: 50%;
     border: 5px solid #fff;
     margin-bottom: 15px;
 }
+
 .service-item h3 span
 {
     opacity: 0.7;
@@ -633,9 +716,33 @@ ul.service-list li i
 }
 
 
+
 /**********************************
 ***********************************
-Google Maps
+Google Maps zone free
+***********************************
+**********************************/
+  .contact-map-free iframe.map {
+		width:100%;
+		height:300px;
+		border:1px solid #ddd;
+		border-radius:2px;
+		margin-bottom:-8px;
+	}
+	.contact-map-wrapper-free {
+			position: relative;
+			width: 580px;
+			height: 480px;
+			background-color:#f5f5f5;
+			padding:10px;
+			border-radius:5px;
+		}
+		.contact-map-wrapper-free.form { padding:20px; }
+}
+
+/**********************************
+***********************************
+Google Maps contactos
 ***********************************
 **********************************/
 .contact-map iframe.map {
@@ -731,6 +838,12 @@ TESTIMONIAL
 .testimonial-item ul li blockquote::after {
     content: '”';
     right: 30px;
+}
+.bx-wrapper .bx-next {
+    right: -50px;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+	width: 106%;
 }
 /***********************************
 ************************************
