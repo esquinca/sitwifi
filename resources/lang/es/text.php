@@ -110,4 +110,8 @@ Manejamos equipo: Ruckus, Cisco, Dell, HP, Panduit, etc.',
   'correolang_message_six' => 'Sucursal Cancún',
   'correolang_message_seven' => 'Av. Yaxchilan Esq. Bacalar Lote 1-01 Mz 02 Super Manzana 17, Cancun QR.',
   'correolang_message_eight' => 'Teléfono: 01 800 884 4630',
+
+  //Redes sociales
+  'redes_sociales' => 'Redes Sociales',
+  'cont_redes_sociales' => '',
 ];
