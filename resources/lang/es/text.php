@@ -93,4 +93,9 @@ Manejamos equipo: Ruckus, Cisco, Dell, HP, Panduit, etc.',
   //Zonas Free WiFi
   'title_zone_free_wifi' => 'Zonas Free WiFi',
   'cont_free_wifi' => '',
+
+  //Lista de pais;
+  'lista_sur' => 'Sur del País',
+  'lista_cent' => 'Centro del País',
+  'lista_norte' => 'Norte del País',
 ];

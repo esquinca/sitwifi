@@ -8,62 +8,27 @@
       </div>
       <div class="col-md-4 col-sm-6 col-xs-12">
         <div class="blog-sec">
-          <div class="blog-img">
-            <a href="">
-              <img src="img/blog01.jpg" class="img-responsive">
-            </a>
-          </div>
-          <div class="blog-info">
-            <h2>This is Lorem ipsum heading.</h2>
-            <div class="blog-comment">
-                <p>Posted In: <span>Legal Advice</span></p>
-                <p>
-                  <span><a href="#"><i class="fa fa-comments"></i></a> 15</span>
-                  <span><a href="#"><i class="fa fa-eye"></i></a> 11</span></p>
-            </div>
-            <p>We cannot expect people to have respect for laws and orders until we teach respect to those we have entrusted to enforce those laws all the time. we always want to help people cordially.</p>
-            <a href="" class="read-more">Read more →</a>
-          </div>
+          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSitwifi%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=387242361620622" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 col-xs-12">
         <div class="blog-sec">
-          <div class="blog-img">
-            <a href="">
-              <img src="img/blog02.jpg" class="img-responsive">
-            </a>
-          </div>
-          <div class="blog-info">
-            <h2>This is Lorem ipsum heading.</h2>
-            <div class="blog-comment">
-                <p>Posted In: <span>Legal Advice</span></p>
-                <p>
-                  <span><a href="#"><i class="fa fa-comments"></i></a> 15</span>
-                  <span><a href="#"><i class="fa fa-eye"></i></a> 11</span></p>
-            </div>
-            <p>We cannot expect people to have respect for laws and orders until we teach respect to those we have entrusted to enforce those laws all the time. we always want to help people cordially.</p>
-            <a href="" class="read-more">Read more →</a>
-          </div>
+          <!--<a class="twitter-timeline" data-chrome="noheader nofooter noborders transparent" data-width="340" data-height="500" href="https://twitter.com/SITWIFI">Tweets by SITWIFI</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+          <a class="twitter-timeline" data-chrome="noheader nofooter noborders" data-width="340" data-height="500" href="https://twitter.com/SITWIFI">Tweets by SITWIFI</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 col-xs-12">
         <div class="blog-sec">
-          <div class="blog-img">
-            <a href="">
-              <img src="img/blog03.jpg" class="img-responsive">
-            </a>
-          </div>
-          <div class="blog-info">
-            <h2>This is Lorem ipsum heading.</h2>
-            <div class="blog-comment">
-                <p>Posted In: <span>Legal Advice</span></p>
-                <p>
-                  <span><a href="#"><i class="fa fa-comments"></i></a> 15</span>
-                  <span><a href="#"><i class="fa fa-eye"></i></a> 11</span></p>
-            </div>
-            <p>We cannot expect people to have respect for laws and orders until we teach respect to those we have entrusted to enforce those laws all the time. we always want to help people cordially.</p>
-            <a href="" class="read-more">Read more →</a>
-          </div>
+          <!-- Inserta esta etiqueta en la sección "head" o justo antes de la etiqueta "body" de cierre. -->
+<script src="https://apis.google.com/js/platform.js" async defer>
+  {lang: 'es', parsetags: 'explicit'}
+</script>
+
+<!-- Inserta esta etiqueta donde quieras que aparezca widget. -->
+<div class="g-page" data-href="https://plus.google.com/101163480616573674041" data-rel="publisher" width="340" height="500"></div>
+
+<!-- Inserta esta invocación donde quieras. -->
+<script type="text/javascript">gapi.page.go();</script>
         </div>
       </div>
     </div>
