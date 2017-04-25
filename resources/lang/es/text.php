@@ -92,10 +92,22 @@ Manejamos equipo: Ruckus, Cisco, Dell, HP, Panduit, etc.',
   'cont_subtitle_evento' => 'El tiempo de implementación, la densidad, el ancho de banda por asistente son críticos para poder dar un servicio. Nosotros lo sabemos y reaccionamos en consecuencia, adecuándonos a sus horarios y a sus espacios cerrados y abiertos.',
   //Zonas Free WiFi
   'title_zone_free_wifi' => 'Zonas Free WiFi',
-  'cont_free_wifi' => '',
-
-  //Lista de pais;
   'lista_sur' => 'Sur del País',
   'lista_cent' => 'Centro del País',
   'lista_norte' => 'Norte del País',
+
+  //Mail
+  'correolang_title' => 'Mensaje de Contacto.',
+  'correolang_message_one' => 'Nombre: ',
+  'correolang_message_two' => 'Empresa: ',
+  'correolang_message_three' => 'Email: ',
+  'correolang_message_four' => 'Teléfono: ',
+  'correolang_message_five' => 'Producto: ',
+  'correolang_message_ten' => 'Mensaje: ',
+
+  'correolang_message_empresa' => 'SitWifi.',
+  'correolang_message_nine' => 'Todos los derechos reservados.',
+  'correolang_message_six' => 'Sucursal Cancún',
+  'correolang_message_seven' => 'Av. Yaxchilan Esq. Bacalar Lote 1-01 Mz 02 Super Manzana 17, Cancun QR.',
+  'correolang_message_eight' => 'Teléfono: 01 800 884 4630',
 ];

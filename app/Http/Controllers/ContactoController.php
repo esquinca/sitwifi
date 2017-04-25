@@ -38,7 +38,7 @@ class ContactoController extends Controller
 
         Mail::send('email', $data, function ($message) {
             //$message->from('contactoweb@sitwifi.com', 'ContactoSitwifiWeb');
-            $message->to('rgonzalez@sitwifi.com', 'René González')->subject('Contacto SitWifi Web');
+            $message->to('jesquinca@sitwifi.com', 'jose')->subject('Contacto SitWifi Web');
 
         });
 
