@@ -13,7 +13,11 @@
   				</div>
       </div>
       <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="contact-form"> 
+            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <div id="errormessage"></div>
             <form action="" method="post" role="form" class="contactForm">
+                {{ csrf_field() }}
                 <div class="col-md-6 padding-right-zero">
                     <div class="form-group">
                         <input type="text" name="name" class="form-control" id="name" placeholder="Ingrese su nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -60,6 +64,8 @@
                   <button type="submit" class="btn btn-primary btn-submit">SEND NOW</button>
                 </div>
             </form>
+          </div>
+
       </div>
     </div>
   </div>

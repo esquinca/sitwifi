@@ -25,5 +25,7 @@
   <!-- Floating Button css -->
   <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/Material-Floating/collapzion.min.css" rel="stylesheet" type="text/css">
-
+  <!-- Sweet Alert -->
+    <link href="js/sweetalert-master/dist/sweetalert.css" rel="stylesheet" type="text/css" />
+    <script src="js/sweetalert-master/dist/sweetalert-dev.js"></script>
 </head>
